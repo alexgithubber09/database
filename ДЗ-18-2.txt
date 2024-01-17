@@ -1,0 +1,1 @@
+SELECT s.student_id, s.student_FIO, c.course_name FROM Students_data s left join Courses_data c on s.course_id = c.course_id;
